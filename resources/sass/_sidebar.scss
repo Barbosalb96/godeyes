@@ -1,0 +1,47 @@
+.sidebar-custom {
+    background: #FFFFFF;
+    width: 88px;
+    height: 108vh;
+    z-index: 999999999;
+
+    .options {
+        margin-top: 35px;
+
+        ul {
+            list-style: none;
+            padding: 0;;
+
+            li {
+                margin: 59px 0;
+                padding: 0;
+
+            }
+        }
+    }
+}
+
+.home:hover::after {
+    content: 'home';
+    position: absolute;
+    margin: 29px 0px 0px 0px;
+    left: 27px;
+}
+.tools:hover::after {
+    content: 'tools';
+    position: absolute;
+    margin: 29px 0px 0px 0px;
+    left: 27px;
+}
+
+
+.navigate-active {
+    &:hover {
+        background: #C5C3F4;
+    }
+}
+
+
+.icon-navigate {
+    width: 32px;
+    height: 26px;
+}

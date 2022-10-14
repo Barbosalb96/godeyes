@@ -1,0 +1,31 @@
+.form-custom-monitramento {
+    background: #E2E1F9;
+    border-radius: 10px;
+    width: 460px;
+    height: 52px;
+    border: none;
+    outline: none;
+
+
+}
+
+.header-monitoramento {
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        color: #323232;
+    }
+}
+
+label, select, input {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+
+}

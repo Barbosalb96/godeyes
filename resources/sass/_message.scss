@@ -1,0 +1,110 @@
+.contact-mensage {
+    background: #FFFFFF;
+    width: 388px;
+    border-radius: 20px 0px 0px 20px;
+
+    h4 {
+        height: 71px;
+        align-items: center;
+        display: flex;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        justify-content: center;
+        text-align: center;
+        color: #000000;
+    }
+
+    .active-message {
+        background: #E3E2FA !important;
+    }
+
+    .card-user-message {
+        height: 91px;
+        padding: 10px;
+        background: white;
+
+        .img-user {
+            background: rgba(51, 51, 51, 0.23);
+            height: 75px;
+            width: 75px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        p {
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 30px;
+            color: #000000;
+        }
+
+        span {
+            padding: 0;
+            margin: 0;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 27px;
+            text-align: center;
+            color: rgba(51, 51, 51, 0.4);
+        }
+
+    }
+
+}
+.chat{
+    max-height: 775px;
+    overflow-y: scroll;
+}
+
+
+.message {
+    background: #E2DFDF;
+    border-radius: 0px 0px 20px 0px;
+    width: 691px;
+
+    .header-message {
+        background: #0D05F2;
+        height: 71px;
+        border-radius: 0px 20px 0px 0px;
+        color: white;
+        align-items: center;
+        display: flex;
+
+        h4 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            padding-left: 10px;
+            font-size: 32px;
+            line-height: 48px;
+            color: #FFFFFF;
+        }
+
+    }
+
+    //.body-message {
+    //    margin: 14px;
+    //}
+    //
+    //.message-received {
+    //    background: #F5F5F5;
+    //    border-radius: 3.43729px;
+    //    max-width: 571px;
+    //    min-width: 0;
+    //    padding: 0px 10px;
+    //    word-break: break-word;
+    //    min-height: 49px;
+    //    display: flex;
+    //    align-items: center;
+    //}
+}
+
